@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teacher Login | RFID Attendance Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+<main class="login-shell">
+  <section class="login-card">
+    <p class="eyebrow">IoT RFID Self Attendance System</p>
+    <h1>Teacher Login</h1>
+    <p class="login-copy">Sign in to view the attendance dashboard and class statistics.</p>
+
+    <form id="loginForm" class="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter username" autocomplete="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" autocomplete="current-password" required>
+
+      <button type="submit">Login</button>
+      <p id="loginError" class="error-message" aria-live="polite"></p>
+    </form>
+
+    <div class="login-hint">
+      <strong>Demo credentials</strong>
+      <span>Username: <code>teacher</code></span>
+      <span>Password: <code>attendance123</code></span>
+    </div>
+  </section>
+</main>
+
+<script src="login.js"></script>
+
+</body>
+</html>
