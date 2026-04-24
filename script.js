@@ -1,5 +1,13 @@
 const url = "https://docs.google.com/spreadsheets/d/15sFmA_5fqoiD-pEX6FXCquwbw3n-hUERgWKs-Yis95Q/edit";
-const totalClasses = 20;
+const classDates = new Set();
+and:
+
+const classDate = student.date || student.classDate || student.day;
+and:
+
+const totalClasses = classDates.size;
+const attendedClasses = count[key].size;
+const percent = totalClasses ? (attendedClasses / totalClasses) * 100 : 0;
 
 const tableBody = document.querySelector("#attendanceTable tbody");
 const dashboardMessage = document.getElementById("dashboardMessage");
