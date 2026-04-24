@@ -1,4 +1,4 @@
-const url = "YOUR_SCRIPT_URL?mode=read";
+const url = "https://docs.google.com/spreadsheets/d/15sFmA_5fqoiD-pEX6FXCquwbw3n-hUERgWKs-Yis95Q/edit";
 const totalClasses = 20;
 
 const tableBody = document.querySelector("#attendanceTable tbody");
